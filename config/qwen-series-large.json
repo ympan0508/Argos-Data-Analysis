@@ -1,0 +1,106 @@
+{
+    "work_dir": "../work/titanic",
+    "dataset_names": [
+        "train.csv",
+        "test.csv"
+    ],
+    "question": "I want to analyze the passenger information on the Titanic.",
+    "venv_dir": "../work/venv",
+    "executor_type": "local",
+    "max_action_rounds": 5,
+    "max_reflection_rounds": 3,
+    "additional_description": "",
+    "default_model_name": "Qwen2.5-72B-Instruct",
+    "default_api_key": "EMPTY",
+    "default_base_url": "<your-vllm-endpoint>",
+    "default_openai_kwargs": {
+        "temperature": 0.2
+    },
+    "planning_agent": {
+        "model_name": "Qwen2.5-72B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": false,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
+    "summarizing_agent": {
+        "model_name": "Qwen2.5-VL-72B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": false,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
+    "visual_coding_agent": {
+        "model_name": "Qwen2.5-Coder-32B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": true,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
+    "visual_reflector_agent": {
+        "model_name": "Qwen2.5-VL-72B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": false,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
+    "programmatic_coding_agent": {
+        "model_name": "Qwen2.5-Coder-32B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": false,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
+    "programmatic_reflector_agent": {
+        "model_name": "Qwen2.5-72B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": false,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
+    "data_report_agent": {
+        "model_name": "Qwen2.5-72B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": false,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
+    "data_report_preset": "default",
+    "data_report_requirements": "Based on these findings and the original objective, provide actionable suggestions that comprehensively address key aspects, including but not limited to: strategic recommendations related to the primary objective, potential directions for further analysis, and data-backed decision-making guidance. Feel free to integrate your own insights and prioritize the most impactful suggestions in a natural and coherent manner.",
+    "data_report_format": "Your goal is to synthesize a well-structured, coherent, and actionable report that effectively conveys the most critical insights and recommendations. The report should be structured as follows:\n``` markdown\n## Final Report\n\n### Findings\n1. <finding1>\n2. ...\n\n### Suggestions\n1. <suggestion1>\n```"
+}

@@ -1,0 +1,21 @@
+## Final Report
+
+### Findings
+1. **Age Distribution**: The mean age in the train dataset is approximately 29.7 years, and in the test dataset, it is slightly higher at about 30.3 years. The age distribution in both datasets shows a peak around the age of 20-30, with a wide variation in passenger ages, as indicated by the high standard deviation.
+2. **SibSp (Siblings/Spouses Aboard)**: The median number of siblings/spouses aboard is 0 in both datasets, indicating that most passengers traveled alone. However, the maximum value of 'SibSp' is 8, suggesting some passengers had a significant number of siblings or spouses with them.
+3. **Parch (Parents/Children Aboard)**: The median number of parents/children aboard is 0 in both datasets, but the maximum value in the test dataset is 9, which is higher than the maximum of 6 in the train dataset. This indicates a few passengers had more parents/children with them in the test dataset.
+4. **Fare Distribution**: The 'Fare' column shows a large standard deviation in both datasets, with a median fare of 14.45 and a maximum fare of 512.33. The distribution is highly right-skewed, with a significant number of passengers paying a low fare and a few paying a very high fare.
+5. **Survival Rates by Passenger Class**: Passengers in the first class (Pclass 1) had the highest survival rate, exceeding 60%, while those in the third class (Pclass 3) had the lowest survival rate, around 20%. This suggests a strong correlation between passenger class and survival chances.
+6. **Survival Rates by Gender**: Females had a significantly higher survival rate (around 70%) compared to males (around 20%), indicating that gender played a crucial role in survival, possibly due to the "women and children first" policy.
+7. **Survival Rates by Age Group**: The highest survival rate by age group was observed in the 0-10 age range, with a rate close to 60%. The survival rate for the 71-80 age group was the lowest, around 20%, highlighting the vulnerability of the elderly. There is a noticeable dip in survival rates for the 21-30 age group, which is lower than the adjacent age groups.
+8. **Statistical Significance**: The chi-squared test of independence confirms a highly significant relationship between 'Survived' and 'Pclass' (chi-squared statistic = 102.89, p-value = 4.55e-23), 'Sex' (chi-squared statistic = 260.72, p-value = 1.20e-58), and 'AgeGroup' (chi-squared statistic = 19.53, p-value = 0.0067). Gender is the most influential factor, followed by passenger class and age group.
+9. **Interaction Between Class and Gender**: Females in the first class had the highest survival rate at 0.97, while males in the third class had the lowest survival rate at 0.14. There is a clear trend where females generally have higher survival rates compared to males across all classes, with the difference being most pronounced in the first class.
+
+### Suggestions
+1. **Further Analysis of Age Groups**: Conduct a more detailed analysis of the 21-30 age group to understand the factors contributing to the lower survival rate compared to adjacent age groups.
+2. **Investigate Outliers in 'Fare'**: Examine the passengers who paid the highest fares to understand the reasons behind the high ticket prices, such as first-class accommodations or special travel conditions.
+3. **Explore Family Dynamics**: Investigate the passengers with a high number of siblings/spouses or parents/children aboard to understand the impact of family size on survival rates.
+4. **Modeling Survival Rates**: Develop predictive models using the significant factors (Pclass, Sex, Age) to predict survival rates for new passengers.
+5. **Policy Implications**: Consider the historical "women and children first" policy and its impact on survival rates. This could provide insights for modern emergency evacuation procedures.
+6. **Visualizations for Communication**: Create more visualizations, such as box plots and violin plots, to better communicate the distribution and variability of age, fare, and other numerical features.
+7. **Cross-Validation**: Perform cross-validation on the train and test datasets to ensure the robustness of the findings and the predictive models.

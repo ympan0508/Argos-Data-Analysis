@@ -1,0 +1,397 @@
+date ,hair_loss,stay_up_late,pressure_level,coffee_consumed,brain_working_duration,stress_level,shampoo_brand,swimming,hair_washing,hair_grease,libido
+1/01/2021,Few,2,Low,0,1,Low,Pantene,No,Y,3.0,1
+2/01/2021,Few,0,Low,0,3,Low,Pantene,No,N,1.0,1
+3/01/2021,Medium,3,Low,1,0,Low,Pantene,Yes,Y,2.0,2
+4/01/2021,Few,2,Low,0,1,Low,Pantene,No,N,3.0,3
+5/01/2021,Few,2,Low,0,1,Low,Pantene,No,Y,1.0,2
+6/01/2021,Few,0,Low,0,3,Low,Pantene,Yes,Y,1.0,3
+7/01/2021,Medium,3,Low,1,1,Low,Pantene,Yes,Y,2.0,3
+8/01/2021,Few,0,Low,0,1,Low,Pantene,No,N,3.0,3
+9/01/2021,Few,2,Low,0,2,Low,Pantene,No,N,2.0,4
+10/01/2021,Medium,1,Low,1,2,Low,Pantene,Yes,Y,1.0,5
+11/01/2021,Medium,0,Low,1,2,Low,Pantene,No,N,2.0,5
+12/01/2021,Medium,2,Low,1,1,Low,Pantene,No,N,2.0,5
+13/01/2021,Medium,0,Low,1,2,Low,Pantene,Yes,Y,1.0,5
+14/01/2021,Medium,2,Low,1,1,Low,Pantene,Yes,Y,2.0,5
+15/01/2021,Medium,3,Low,1,1,Low,Pantene,No,N,1.0,4
+16/01/2021,Few,1,Low,0,1,Low,Pantene,No,Y,3.0,4
+17/01/2021,Few,2,Low,0,0,Low,Pantene,Yes,Y,2.0,1
+18/01/2021,Few,2,Low,0,1,Low,Pantene,No,N,1.0,1
+19/01/2021,Few,2,Low,0,2,Low,Pantene,No,N,1.0,1
+20/01/2021,Few,1,Low,0,0,Low,Pantene,Yes,Y,1.0,2
+21/01/2021,Few,1,Low,0,2,Low,Pantene,Yes,Y,2.0,2
+22/01/2021,Few,0,Low,0,2,Low,Pantene,No,N,2.0,3
+23/01/2021,Few,1,Low,0,1,Low,Pantene,No,N,2.0,4
+24/01/2021,Few,1,Low,0,2,Low,Pantene,Yes,Y,2.0,2
+25/01/2021,Few,1,Low,0,0,Low,Pantene,No,N,2.0,2
+26/01/2021,Few,2,Low,0,2,Low,Pantene,No,Y,2.0,3
+27/01/2021,Medium,1,Low,1,2,Low,Pantene,Yes,Y,1.0,5
+28/01/2021,Medium,0,Low,1,0,Low,Pantene,Yes,Y,2.0,5
+29/01/2021,Medium,2,Low,1,1,Low,Pantene,No,N,2.0,5
+30/01/2021,Medium,1,Low,1,1,Low,Pantene,No,N,1.0,5
+31/01/2021,Medium,3,Low,1,1,Low,Pantene,Yes,Y,2.0,1
+1/02/2021,Few,0,Low,0,0,Low,Pantene,No,N,3.0,1
+2/02/2021,Few,2,Low,0,3,Low,Pantene,No,N,2.0,1
+3/02/2021,Medium,3,Low,1,1,Low,Pantene,Yes,Y,1.0,1
+4/02/2021,Medium,3,Low,1,1,Low,Pantene,Yes,Y,3.0,3
+5/02/2021,Few,2,Low,0,2,Low,Pantene,No,N,3.0,2
+6/02/2021,Few,2,Low,0,2,Low,Pantene,No,N,1.0,2
+7/02/2021,Few,1,Low,0,3,Low,Pantene,Yes,Y,1.0,3
+8/02/2021,Medium,3,Low,1,2,Low,Pantene,No,N,2.0,5
+9/02/2021,Medium,2,Low,1,2,Low,Pantene,No,N,3.0,5
+10/02/2021,Medium,2,Low,1,3,Low,Pantene,Yes,Y,1.0,5
+11/02/2021,Medium,1,Low,1,0,Low,Pantene,Yes,Y,1.0,5
+12/02/2021,Medium,1,Low,1,2,Low,Pantene,No,N,2.0,5
+13/02/2021,Few,2,Low,0,2,Low,Pantene,No,N,2.0,3
+14/02/2021,Medium,3,Low,1,2,Low,Pantene,Yes,Y,1.0,1
+15/02/2021,Medium,3,Low,1,1,Low,Pantene,No,N,3.0,1
+16/02/2021,Medium,3,Low,1,3,Low,Pantene,No,N,3.0,2
+17/02/2021,Few,2,Low,0,3,Low,Pantene,Yes,Y,3.0,1
+18/02/2021,Few,2,Low,0,1,Low,Pantene,Yes,Y,1.0,2
+19/02/2021,Few,1,Low,0,1,Low,Pantene,No,N,1.0,1
+20/02/2021,Few,2,Low,0,2,Low,Pantene,No,N,2.0,2
+21/02/2021,Few,0,Low,0,1,Low,Pantene,Yes,Y,1.0,4
+22/02/2021,Medium,1,Low,1,1,Low,Hair & Shoulder,No,N,2.0,5
+23/02/2021,Medium,0,Low,1,0,Low,Hair & Shoulder,No,N,2.0,5
+24/02/2021,Medium,2,Low,1,1,Low,Hair & Shoulder,Yes,Y,2.0,5
+25/02/2021,Medium,3,Low,1,3,Low,Hair & Shoulder,Yes,Y,1.0,5
+26/02/2021,Medium,1,Low,1,0,Low,Hair & Shoulder,No,N,3.0,5
+27/02/2021,Few,2,Low,0,2,Low,Hair & Shoulder,No,N,2.0,3
+28/02/2021,Few,2,Low,0,3,Low,Hair & Shoulder,Yes,Y,1.0,1
+1/03/2021,Few,0,Low,0,0,Low,Hair & Shoulder,No,N,1.0,1
+2/03/2021,Few,2,Low,0,1,Low,Hair & Shoulder,No,N,2.0,1
+3/03/2021,Few,2,Low,0,2,Low,Hair & Shoulder,Yes,Y,1.0,1
+4/03/2021,Medium,3,Low,1,2,Low,Hair & Shoulder,Yes,Y,1.0,1
+5/03/2021,Few,0,Low,0,2,Low,Hair & Shoulder,No,N,3.0,2
+6/03/2021,Medium,3,Low,1,2,Low,Hair & Shoulder,No,N,2.0,1
+7/03/2021,Few,2,Low,0,2,Low,Hair & Shoulder,Yes,Y,3.0,2
+8/03/2021,Few,2,Low,0,6,Low,Hair & Shoulder,No,N,1.0,3
+9/03/2021,Few,1,Low,0,0,Low,Hair & Shoulder,No,N,1.0,3
+10/03/2021,Medium,1,Low,1,7,Low,Hair & Shoulder,Yes,Y,2.0,5
+11/03/2021,Medium,1,Low,1,1,Low,Hair & Shoulder,Yes,Y,2.0,5
+12/03/2021,Medium,2,Low,1,5,Low,Hair & Shoulder,No,N,2.0,5
+13/03/2021,Medium,1,Low,1,0,Low,Hair & Shoulder,No,N,1.0,5
+14/03/2021,Few,0,Low,0,1,Low,Hair & Shoulder,Yes,Y,2.0,4
+15/03/2021,Few,1,Low,0,6,Low,Hair & Shoulder,No,N,2.0,1
+16/03/2021,Few,0,Low,0,2,Low,Hair & Shoulder,No,N,2.0,1
+17/03/2021,Few,2,Low,0,7,Low,Hair & Shoulder,Yes,Y,2.0,1
+18/03/2021,Few,1,Low,0,1,Low,Hair & Shoulder,Yes,Y,1.0,1
+19/03/2021,Medium,3,Low,1,5,Low,Hair & Shoulder,No,N,2.0,2
+20/03/2021,Few,2,Medium,0,2,Low,Hair & Shoulder,No,N,3.0,3
+21/03/2021,Few,1,Medium,0,1,Medium,Hair & Shoulder,Yes,Y,1.0,4
+22/03/2021,Medium,2,Medium,1,8,Medium,Hair & Shoulder,No,N,4.0,5
+23/03/2021,Medium,3,Medium,2,8,Medium,Hair & Shoulder,No,N,4.0,5
+24/03/2021,Medium,4,Medium,3,9,Medium,Hair & Shoulder,Yes,Y,4.0,5
+25/03/2021,Medium,3,Medium,3,9,Medium,Hair & Shoulder,Yes,Y,4.0,3
+26/03/2021,Few,3,Medium,3,10,Medium,Hair & Shoulder,No,N,4.0,1
+27/03/2021,Medium,4,Low,2,10,Medium,Hair & Shoulder,No,Y,4.0,1
+28/03/2021,Medium,3,Low,0,2,Low,Hair & Shoulder,No,N,3.0,1
+29/03/2021,Medium,2,Low,0,6,Low,Hair & Shoulder,No,Y,3.0,1
+30/03/2021,Few,3,Low,0,0,Low,Hair & Shoulder,No,N,3.0,2
+31/03/2021,Few,2,Medium,0,7,Low,Hair & Shoulder,No,Y,3.0,2
+1/04/2021,Few,3,Medium,0,2,Low,Hair & Shoulder,No,N,3.0,2
+2/04/2021,Few,4,Medium,3,8,Low,Hair & Shoulder,No,Y,4.0,2
+3/04/2021,Medium,4,Medium,3,8,Low,Hair & Shoulder,No,N,4.0,2
+4/04/2021,Medium,2,Medium,0,1,Low,Hair & Shoulder,No,Y,4.0,5
+5/04/2021,Medium,2,Medium,0,6,Low,Hair & Shoulder,No,N,3.0,5
+6/04/2021,Medium,2,Medium,0,3,Medium,Hair & Shoulder,No,Y,3.0,5
+7/04/2021,Medium,3,High,3,7,High,Hair & Shoulder,No,N,4.0,0
+8/04/2021,Medium,2,High,4,7,High,Hair & Shoulder,No,Y,4.0,0
+9/04/2021,Many,2,High,4,7,High,Hair & Shoulder,No,N,4.0,0
+10/04/2021,Many,4,High,4,8,High,Hair & Shoulder,No,Y,4.0,5
+11/04/2021,Many,4,High,4,7,High,Hair & Shoulder,No,N,4.0,4
+12/04/2021,Many,5,High,3,7,High,Hair & Shoulder,No,Y,4.0,5
+13/04/2021,Many,6,High,5,10,High,Hair & Shoulder,No,N,5.0,5
+14/04/2021,Many,0,High,0,7,High,Hair & Shoulder,No,Y,5.0,4
+15/04/2021,Many,0,High,0,2,High,Hair & Shoulder,No,N,5.0,3
+16/04/2021,Many,0,High,5,12,Very High,Hair & Shoulder,No,Y,5.0,5
+17/04/2021,A lot,3,Very High,6,13,Very High,Hair & Shoulder,No,N,5.0,5
+18/04/2021,A lot,4,Very High,6,13,Very High,Hair & Shoulder,No,Y,5.0,3
+19/04/2021,A lot,4,Very High,6,13,Very High,Hair & Shoulder,No,N,5.0,4
+20/04/2021,A lot,6,Very High,7,16,Very High,Hair & Shoulder,No,Y,5.0,5
+21/04/2021,A lot,8,Very High,8,18,Very High,Hair & Shoulder,No,N,5.0,4
+22/04/2021,A lot,0,Medium,0,0,High,Hair & Shoulder,No,Y,4.0,3
+23/04/2021,A lot,0,Medium,0,0,High,Hair & Shoulder,No,N,4.0,5
+24/04/2021,Many,1,Medium,2,10,High,Hair & Shoulder,No,Y,4.0,0
+25/04/2021,Medium,1,Medium,2,10,High,Hair & Shoulder,No,N,4.0,0
+26/04/2021,Medium,1,Medium,2,10,High,Hair & Shoulder,No,Y,4.0,0
+27/04/2021,Medium,1,High,2,10,High,Hair & Shoulder,No,N,4.0,0
+28/04/2021,Many,8,Very High,9,18,Very High,Hair & Shoulder,No,Y,5.0,0
+29/04/2021,Medium,2,High,2,6,Very High,Hair & Shoulder,No,N,4.0,5
+30/04/2021,Medium,2,High,1,6,Very High,Hair & Shoulder,No,N,4.0,5
+1/05/2021,Many,0,High,2,6,Very High,Hair & Shoulder,No,N,4.0,5
+2/05/2021,Many,0,High,2,6,Very High,Hair & Shoulder,No,Y,4.0,5
+3/05/2021,Many,8,Very High,10,18,Very High,Hair & Shoulder,No,N,5.0,0
+4/05/2021,Many,6,Very High,9,16,Very High,Hair & Shoulder,No,Y,5.0,0
+5/05/2021,Many,0,Low,0,7,Medium,Hair & Shoulder,No,N,4.0,5
+6/05/2021,Medium,3,Low,0,3,Medium,Hair & Shoulder,No,Y,3.0,5
+7/05/2021,Medium,0,Low,0,5,Medium,Hair & Shoulder,No,N,1.0,5
+8/05/2021,Medium,1,Low,0,2,Medium,Hair & Shoulder,No,Y,2.0,4
+9/05/2021,Medium,2,Low,0,1,Medium,Hair & Shoulder,No,N,1.0,3
+10/05/2021,Medium,0,Low,0,6,Low,Hair & Shoulder,No,Y,2.0,2
+11/05/2021,Few,1,Low,0,3,Low,Hair & Shoulder,No,N,1.0,3
+12/05/2021,Few,0,Low,0,7,Low,Hair & Shoulder,No,Y,2.0,2
+13/05/2021,Few,2,Low,0,1,Low,Hair & Shoulder,No,N,1.0,0
+14/05/2021,Few,0,Low,0,5,Low,Hair & Shoulder,No,N,2.0,0
+15/05/2021,Medium,3,Low,0,2,Low,Hair & Shoulder,No,Y,2.0,0
+16/05/2021,Few,1,Low,0,1,Low,Hair & Shoulder,No,N,1.0,0
+17/05/2021,Few,0,Low,0,2,Low,Hair & Shoulder,No,Y,2.0,0
+18/05/2021,Few,1,Low,0,2,Medium,Hair & Shoulder,No,N,1.0,1
+19/05/2021,Few,0,Low,0,2,Medium,Hair & Shoulder,No,Y,2.0,0
+20/05/2021,Few,2,Low,0,2,Medium,Hair & Shoulder,No,N,1.0,0
+21/05/2021,Medium,3,Low,0,1,Medium,Hair & Shoulder,No,Y,2.0,0
+22/05/2021,Few,2,Low,0,0,Medium,Hair & Shoulder,No,N,1.0,1
+23/05/2021,Few,2,Low,0,3,Medium,Hair & Shoulder,No,Y,2.0,2
+24/05/2021,Few,1,Low,0,2,Medium,Hair & Shoulder,No,N,1.0,4
+25/05/2021,Medium,0,Low,0,1,Medium,Hair & Shoulder,No,N,2.0,5
+26/05/2021,Medium,1,Low,0,0,Medium,Hair & Shoulder,No,Y,2.0,5
+27/05/2021,Medium,0,Low,0,1,Medium,Hair & Shoulder,No,N,1.0,5
+28/05/2021,Few,2,Low,0,1,Low,Hair & Shoulder,No,Y,2.0,3
+29/05/2021,Few,2,Low,0,2,Low,Hair & Shoulder,No,N,1.0,4
+30/05/2021,Few,2,Low,0,1,Low,Hair & Shoulder,No,Y,2.0,4
+31/05/2021,Few,1,Low,0,0,Low,Hair & Shoulder,No,N,1.0,4
+1/06/2021,Few,2,Low,0,1,Medium,Hair & Shoulder,No,Y,2.0,4
+2/06/2021,Few,0,Low,0,3,Medium,Hair & Shoulder,No,N,1.0,2
+3/06/2021,Medium,3,Low,0,2,Medium,Hair & Shoulder,No,Y,2.0,1
+4/06/2021,Few,2,Low,0,2,Medium,Hair & Shoulder,No,N,1.0,1
+9/06/2021,Few,2,Low,0,1,Low,Pantene,No,N,2.0,2
+10/06/2021,Few,1,Low,0,2,Low,Pantene,Yes,Y,1.0,4
+11/06/2021,Medium,2,Low,1,2,Low,Pantene,No,N,2.0,5
+12/06/2021,Medium,2,Low,1,2,Low,Pantene,No,N,1.0,5
+13/06/2021,Medium,0,Low,1,1,Low,Pantene,Yes,Y,1.0,5
+14/06/2021,Medium,0,Low,1,2,Low,Pantene,Yes,Y,2.0,5
+15/06/2021,Medium,3,Low,1,1,Low,Pantene,No,N,2.0,5
+16/06/2021,Few,2,Low,0,1,Low,Pantene,No,N,3.0,3
+17/06/2021,Few,1,Low,0,0,Low,Pantene,Yes,Y,1.0,1
+18/06/2021,Few,1,Low,0,2,Low,Pantene,No,N,2.0,1
+19/06/2021,Medium,3,Low,1,2,Low,Pantene,No,N,2.0,1
+20/06/2021,Few,2,Low,0,0,Low,Pantene,Yes,Y,3.0,1
+21/06/2021,Few,2,Low,0,2,Low,Pantene,Yes,Y,1.0,1
+22/06/2021,Few,1,Low,0,2,Low,Pantene,No,N,1.0,2
+23/06/2021,Few,1,Low,0,0,Low,Pantene,No,N,2.0,1
+24/06/2021,Few,0,Low,0,0,Low,Pantene,Yes,Y,2.0,2
+25/06/2021,Few,2,Low,0,6,Low,Pantene,No,N,2.0,3
+26/06/2021,Few,1,Low,0,2,Low,Pantene,No,N,1.0,3
+27/06/2021,Medium,1,Low,1,7,Low,Pantene,Yes,Y,2.0,5
+28/06/2021,Medium,1,Low,1,0,Low,Pantene,Yes,Y,2.0,5
+29/06/2021,Medium,3,Low,1,5,Low,Pantene,No,N,2.0,5
+30/06/2021,Medium,2,Low,1,1,Low,Pantene,No,N,3.0,5
+1/07/2021,Few,0,Low,0,1,Low,Pantene,Yes,Y,1.0,4
+2/07/2021,Few,1,Low,0,6,Low,Pantene,No,N,2.0,1
+3/07/2021,Few,0,Low,0,3,Low,Pantene,No,N,2.0,1
+4/07/2021,Medium,3,Low,1,7,Low,Pantene,Yes,Y,2.0,1
+5/07/2021,Few,2,Low,0,1,Low,Pantene,Yes,Y,3.0,1
+6/07/2021,Few,1,Low,0,5,Low,Pantene,No,N,1.0,2
+7/07/2021,Medium,3,Medium,1,2,Low,Pantene,No,N,2.0,3
+8/07/2021,Medium,3,Medium,1,1,Low,Pantene,Yes,Y,3.0,4
+9/07/2021,Medium,2,Medium,1,8,Medium,Hair & Shoulder,No,N,4.0,5
+10/07/2021,Medium,3,Medium,2,8,Medium,Hair & Shoulder,No,N,4.0,5
+11/07/2021,Medium,4,Medium,3,9,Medium,Hair & Shoulder,Yes,Y,4.0,5
+12/07/2021,Medium,3,Medium,3,9,Medium,Hair & Shoulder,Yes,Y,4.0,3
+13/07/2021,Few,3,Medium,3,10,Medium,Hair & Shoulder,No,N,4.0,1
+14/07/2021,A lot,4,Low,2,10,Medium,Hair & Shoulder,No,Y,4.0,1
+15/07/2021,Medium,3,Low,0,2,Low,Hair & Shoulder,No,N,3.0,1
+16/07/2021,Medium,2,Low,0,6,Low,Hair & Shoulder,No,Y,3.0,1
+17/07/2021,Few,3,Low,0,1,Low,Hair & Shoulder,No,N,3.0,2
+18/07/2021,Few,2,Medium,0,7,Low,Hair & Shoulder,No,Y,3.0,2
+19/07/2021,Few,3,Medium,0,1,Low,Hair & Shoulder,No,N,3.0,2
+20/07/2021,Few,4,Medium,3,8,Low,Hair & Shoulder,No,Y,4.0,2
+21/07/2021,Medium,4,Medium,3,8,Low,Hair & Shoulder,No,N,4.0,2
+22/07/2021,Medium,2,Medium,0,1,Low,Hair & Shoulder,No,Y,4.0,5
+23/07/2021,Medium,2,Medium,0,6,Low,Hair & Shoulder,No,N,3.0,5
+24/07/2021,Medium,2,Medium,0,3,Medium,Hair & Shoulder,No,Y,3.0,5
+25/07/2021,Medium,3,High,3,7,High,Hair & Shoulder,No,N,4.0,0
+26/07/2021,Medium,2,High,4,7,High,Hair & Shoulder,No,Y,4.0,0
+27/07/2021,Many,2,High,4,7,High,Hair & Shoulder,No,N,4.0,0
+28/07/2021,Many,4,High,4,8,High,Hair & Shoulder,No,Y,4.0,5
+29/07/2021,Many,4,High,4,7,High,Hair & Shoulder,No,N,4.0,4
+30/07/2021,A lot,5,High,3,7,High,Hair & Shoulder,No,Y,4.0,5
+31/07/2021,A lot,6,High,5,10,High,Hair & Shoulder,No,N,5.0,5
+1/08/2021,A lot,0,High,0,7,High,Hair & Shoulder,No,Y,5.0,4
+2/08/2021,Many,0,High,0,0,High,Hair & Shoulder,No,N,5.0,3
+3/08/2021,Many,0,High,5,12,Very High,Hair & Shoulder,No,Y,5.0,5
+4/08/2021,A lot,3,Very High,6,13,Very High,Hair & Shoulder,No,N,5.0,5
+5/08/2021,A lot,4,Very High,6,13,Very High,Hair & Shoulder,No,Y,5.0,3
+6/08/2021,A lot,4,Very High,6,13,Very High,Hair & Shoulder,No,N,5.0,4
+7/08/2021,A lot,6,Very High,7,16,Very High,Hair & Shoulder,No,Y,5.0,5
+8/08/2021,A lot,8,Very High,8,18,Very High,Hair & Shoulder,No,N,5.0,4
+9/08/2021,A lot,0,Medium,0,0,High,Hair & Shoulder,No,Y,4.0,3
+10/08/2021,Many,0,Medium,0,0,High,Hair & Shoulder,No,N,4.0,5
+11/08/2021,Many,1,Medium,2,10,High,Hair & Shoulder,No,Y,4.0,0
+12/08/2021,Medium,1,Medium,2,10,High,Hair & Shoulder,No,N,4.0,0
+13/08/2021,Medium,1,Medium,2,10,High,Hair & Shoulder,No,Y,4.0,0
+14/08/2021,Medium,1,High,2,10,High,Hair & Shoulder,No,N,4.0,0
+15/08/2021,Medium,1,High,2,11,Very High,Hair & Shoulder,No,Y,4.0,0
+16/08/2021,Medium,2,High,1,6,Very High,Hair & Shoulder,No,N,4.0,5
+17/08/2021,Many,8,Very High,9,18,Very High,Hair & Shoulder,No,Y,5.0,0
+18/08/2021,Many,0,High,2,6,Very High,Hair & Shoulder,No,N,4.0,5
+19/08/2021,Many,0,High,2,6,Very High,Hair & Shoulder,No,Y,4.0,5
+20/08/2021,Many,8,Very High,10,18,Very High,Hair & Shoulder,No,N,5.0,0
+21/08/2021,Medium,2,Low,0,5,Medium,Hair & Shoulder,No,N,2.0,5
+22/08/2021,Medium,2,Low,0,2,Medium,Hair & Shoulder,No,Y,2.0,4
+23/08/2021,Medium,2,Low,0,2,Medium,Hair & Shoulder,No,N,1.0,3
+24/08/2021,Medium,2,Low,0,6,Low,Hair & Shoulder,No,Y,2.0,2
+25/08/2021,Few,2,Low,0,0,Low,Hair & Shoulder,No,N,1.0,3
+26/08/2021,Few,2,Low,0,7,Low,Hair & Shoulder,No,Y,2.0,2
+27/08/2021,Medium,3,Low,0,2,Low,Hair & Shoulder,No,N,1.0,0
+28/08/2021,Few,2,Low,0,5,Low,Hair & Shoulder,No,N,2.0,0
+29/08/2021,Few,1,Low,0,0,Low,Hair & Shoulder,No,Y,2.0,0
+30/08/2021,Few,2,Low,0,2,Low,Hair & Shoulder,No,N,1.0,0
+31/08/2021,Medium,0,Low,0,2,Medium,Hair & Shoulder,No,Y,2.0,4
+1/09/2021,Medium,2,Low,0,0,Medium,Hair & Shoulder,No,N,1.0,3
+2/09/2021,Medium,1,Low,0,6,Low,Hair & Shoulder,No,Y,2.0,2
+3/09/2021,Few,1,Low,0,3,Low,Hair & Shoulder,No,N,1.0,3
+4/09/2021,Few,2,Low,0,7,Low,Hair & Shoulder,No,Y,2.0,2
+5/09/2021,Few,1,Low,0,3,Low,Hair & Shoulder,No,N,1.0,0
+6/09/2021,Few,1,Low,0,5,Low,Hair & Shoulder,No,N,2.0,0
+7/09/2021,Few,2,Low,0,1,Low,Hair & Shoulder,No,Y,2.0,0
+8/09/2021,Few,2,Low,0,2,Low,Hair & Shoulder,No,N,1.0,0
+9/09/2021,Few,0,Low,0,2,Low,Hair & Shoulder,No,Y,2.0,0
+10/09/2021,Medium,3,Low,0,1,Medium,Hair & Shoulder,No,N,1.0,1
+11/09/2021,Medium,3,Low,0,3,Medium,Hair & Shoulder,No,Y,2.0,0
+12/09/2021,Few,2,Low,0,0,Medium,Hair & Shoulder,No,N,1.0,0
+13/09/2021,Few,0,Low,0,2,Medium,Hair & Shoulder,No,Y,2.0,0
+14/09/2021,Few,1,Low,0,1,Medium,Hair & Shoulder,No,N,1.0,1
+15/09/2021,Few,1,Low,0,0,Medium,Hair & Shoulder,No,Y,2.0,2
+16/09/2021,Few,1,Low,0,1,Medium,Hair & Shoulder,No,N,1.0,4
+17/09/2021,Medium,0,Low,0,3,Medium,Hair & Shoulder,No,N,2.0,5
+18/09/2021,Medium,3,Low,0,0,Medium,Hair & Shoulder,No,Y,2.0,5
+19/09/2021,Medium,3,Low,1,2,Low,Pantene,No,N,3.0,2
+20/09/2021,Medium,3,Low,1,0,Low,Pantene,Yes,Y,3.0,4
+21/09/2021,Medium,2,Low,1,0,Low,Pantene,No,N,3.0,5
+22/09/2021,Medium,1,Low,1,2,Low,Pantene,No,N,1.0,5
+23/09/2021,Medium,2,Low,1,3,Low,Pantene,Yes,Y,2.0,5
+24/09/2021,Medium,1,Low,1,0,Low,Pantene,Yes,Y,1.0,5
+25/09/2021,Medium,2,Low,1,2,Low,Pantene,No,N,2.0,5
+26/09/2021,Few,2,Low,0,1,Low,Pantene,No,N,1.0,3
+27/09/2021,Few,1,Low,0,2,Low,Pantene,Yes,Y,1.0,1
+28/09/2021,Few,2,Low,0,2,Low,Pantene,No,N,2.0,1
+29/09/2021,Few,1,Low,0,0,Low,Pantene,No,N,1.0,1
+30/09/2021,Few,1,Low,0,1,Low,Pantene,Yes,Y,2.0,1
+1/10/2021,Few,1,Low,0,2,Low,Pantene,Yes,Y,2.0,1
+2/10/2021,Medium,3,Low,1,3,Low,Pantene,No,N,2.0,2
+3/10/2021,Few,0,Low,0,1,Low,Pantene,No,N,3.0,1
+4/10/2021,Few,1,Low,0,3,Low,Pantene,Yes,Y,2.0,2
+5/10/2021,Few,1,Low,0,6,Low,Pantene,No,N,2.0,3
+6/10/2021,Few,1,Low,0,2,Low,Pantene,No,N,2.0,3
+7/10/2021,Medium,2,Low,1,7,Low,Pantene,Yes,Y,2.0,5
+8/10/2021,Medium,1,Low,1,0,Low,Pantene,Yes,Y,1.0,5
+9/10/2021,Medium,2,Low,1,5,Low,Pantene,No,N,2.0,5
+10/10/2021,Medium,2,Low,1,2,Low,Pantene,No,N,1.0,5
+11/10/2021,Few,0,Low,0,0,Low,Pantene,Yes,Y,1.0,4
+12/10/2021,Few,2,Low,0,6,Low,Pantene,No,N,2.0,1
+13/10/2021,Few,0,Low,0,0,Low,Pantene,No,N,1.0,1
+14/10/2021,Few,2,Low,0,7,Low,Pantene,Yes,Y,2.0,1
+15/10/2021,Few,2,Low,0,2,Low,Pantene,Yes,Y,1.0,1
+16/10/2021,Medium,3,Low,1,5,Low,Pantene,No,N,1.0,2
+17/10/2021,Few,1,Medium,0,3,Low,Pantene,No,N,3.0,3
+18/10/2021,Few,1,Medium,0,0,Low,Pantene,Yes,Y,2.0,4
+19/10/2021,Medium,2,Medium,1,8,Medium,Pantene,No,N,4.0,5
+20/10/2021,Medium,3,Medium,2,8,Medium,Pantene,No,N,4.0,5
+21/10/2021,Medium,4,Medium,3,9,Medium,Pantene,Yes,Y,4.0,5
+22/10/2021,Medium,3,Medium,3,9,Medium,Pantene,Yes,Y,4.0,3
+23/10/2021,Few,3,Medium,3,10,Medium,Pantene,No,N,4.0,1
+24/10/2021,Medium,4,Low,2,10,Medium,Pantene,No,Y,4.0,1
+25/10/2021,Medium,3,Low,0,3,Low,Pantene,No,N,3.0,1
+26/10/2021,Medium,2,Low,0,6,Low,Pantene,No,Y,3.0,1
+27/10/2021,Few,3,Low,0,2,Low,Pantene,No,N,3.0,2
+28/10/2021,Few,2,Medium,0,7,Low,Pantene,No,Y,3.0,2
+29/10/2021,Few,3,Medium,0,3,Low,Pantene,No,N,3.0,2
+30/10/2021,Few,4,Medium,3,8,Low,Pantene,No,Y,4.0,2
+31/10/2021,Medium,4,Medium,3,8,Low,Pantene,No,N,4.0,2
+1/11/2021,Medium,2,Medium,0,1,Low,Pantene,No,Y,4.0,5
+2/11/2021,Medium,2,Medium,0,6,Low,Pantene,No,N,3.0,5
+3/11/2021,Medium,2,Medium,0,0,Medium,Hair & Shoulder,No,Y,3.0,5
+4/11/2021,Medium,3,High,3,7,High,Hair & Shoulder,No,N,4.0,0
+5/11/2021,Medium,2,High,4,7,High,Hair & Shoulder,No,Y,4.0,0
+6/11/2021,Many,2,High,4,7,High,Hair & Shoulder,No,N,4.0,0
+7/11/2021,Many,4,High,4,8,High,Hair & Shoulder,No,Y,4.0,5
+8/11/2021,Many,4,High,4,7,High,Hair & Shoulder,No,N,4.0,4
+9/11/2021,Many,5,High,3,7,High,Hair & Shoulder,No,Y,4.0,5
+10/11/2021,Many,6,High,5,10,High,Hair & Shoulder,No,N,5.0,5
+11/11/2021,Many,0,High,0,7,High,Hair & Shoulder,No,Y,5.0,4
+12/11/2021,Many,0,High,0,1,High,Hair & Shoulder,No,N,5.0,3
+13/11/2021,Many,0,High,5,12,Very High,Hair & Shoulder,No,Y,5.0,5
+14/11/2021,Many,3,Very High,6,13,Very High,Hair & Shoulder,No,N,5.0,5
+15/11/2021,A lot,4,Very High,6,13,Very High,Hair & Shoulder,No,Y,5.0,3
+16/11/2021,A lot,4,Very High,6,13,Very High,Hair & Shoulder,No,N,5.0,4
+17/11/2021,A lot,6,Very High,7,16,Very High,Hair & Shoulder,No,Y,5.0,5
+18/11/2021,A lot,8,Very High,8,18,Very High,Hair & Shoulder,No,N,5.0,4
+19/11/2021,A lot,0,Medium,0,0,High,Hair & Shoulder,No,Y,4.0,3
+20/11/2021,Many,0,Medium,0,0,High,Hair & Shoulder,No,N,4.0,5
+21/11/2021,Many,1,Medium,2,10,High,Hair & Shoulder,No,Y,4.0,0
+22/11/2021,Medium,1,Medium,2,10,High,Hair & Shoulder,No,N,4.0,0
+23/11/2021,Medium,1,Medium,2,10,High,Hair & Shoulder,No,Y,4.0,0
+24/11/2021,Medium,1,High,2,10,High,Hair & Shoulder,No,N,4.0,0
+25/11/2021,Medium,1,High,2,11,Very High,Hair & Shoulder,No,Y,4.0,0
+26/11/2021,Medium,2,High,1,6,Very High,Hair & Shoulder,No,N,4.0,5
+27/11/2021,Many,8,Very High,9,18,Very High,Hair & Shoulder,No,Y,5.0,0
+28/11/2021,Many,0,High,2,6,Very High,Hair & Shoulder,No,N,4.0,5
+29/11/2021,Many,0,High,2,6,Very High,Hair & Shoulder,No,Y,4.0,5
+30/11/2021,Many,8,Very High,10,18,Very High,Hair & Shoulder,No,N,5.0,0
+1/12/2021,Many,6,Very High,9,16,Very High,Hair & Shoulder,No,Y,5.0,0
+2/12/2021,Few,1,Low,0,0,Low,Hair & Shoulder,No,Y,3.0,1
+3/12/2021,Few,0,Low,0,0,Low,Hair & Shoulder,No,N,2.0,1
+4/12/2021,Few,2,Low,0,1,Low,Hair & Shoulder,Yes,Y,2.0,2
+5/12/2021,Few,2,Low,0,1,Low,Hair & Shoulder,No,N,1.0,3
+6/12/2021,Few,2,Low,0,2,Low,Hair & Shoulder,No,Y,1.0,2
+7/12/2021,Medium,3,Low,1,2,Low,Hair & Shoulder,Yes,Y,1.0,3
+8/12/2021,Few,2,Low,0,1,Low,Hair & Shoulder,Yes,Y,3.0,3
+9/12/2021,Few,1,Low,0,3,Low,Hair & Shoulder,No,N,1.0,3
+10/12/2021,Few,1,Low,0,2,Low,Hair & Shoulder,No,N,2.0,4
+11/12/2021,Medium,1,Low,1,3,Low,Hair & Shoulder,Yes,Y,2.0,5
+12/12/2021,Medium,0,Low,1,2,Low,Hair & Shoulder,No,N,2.0,5
+13/12/2021,Medium,2,Low,1,0,Low,Hair & Shoulder,No,N,2.0,5
+14/12/2021,Medium,0,Low,1,2,Low,Hair & Shoulder,Yes,Y,1.0,5
+15/12/2021,Medium,0,Low,1,3,Low,Hair & Shoulder,Yes,Y,2.0,5
+16/12/2021,Medium,3,Low,1,2,Low,Hair & Shoulder,No,N,2.0,4
+17/12/2021,Medium,3,Low,1,0,Low,Hair & Shoulder,No,Y,3.0,4
+18/12/2021,Few,1,Low,0,1,Low,Hair & Shoulder,Yes,Y,3.0,1
+19/12/2021,Few,2,Low,0,3,Low,Hair & Shoulder,No,N,2.0,1
+20/12/2021,Few,1,Low,0,2,Low,Hair & Shoulder,No,N,1.0,1
+21/12/2021,Few,0,Low,0,0,Low,Hair & Shoulder,Yes,Y,2.0,2
+22/12/2021,Few,2,Low,0,1,Low,Hair & Shoulder,Yes,Y,2.0,2
+23/12/2021,Few,1,Low,0,0,Low,Hair & Shoulder,No,N,1.0,3
+24/12/2021,Medium,3,Low,1,3,Low,Hair & Shoulder,No,N,2.0,4
+25/12/2021,Few,0,Low,0,1,Low,Hair & Shoulder,Yes,Y,3.0,2
+26/12/2021,Few,0,Low,0,0,Low,Hair & Shoulder,No,N,2.0,2
+27/12/2021,Medium,3,Low,1,1,Low,Hair & Shoulder,No,Y,2.0,3
+28/12/2021,Medium,1,Low,1,1,Low,Hair & Shoulder,Yes,Y,3.0,5
+29/12/2021,Medium,1,Low,1,1,Low,Hair & Shoulder,Yes,Y,2.0,5
+30/12/2021,Medium,0,Low,1,0,Low,Hair & Shoulder,No,N,2.0,5
+31/12/2021,Medium,2,Low,1,2,Low,Hair & Shoulder,No,N,2.0,5
+1/01/2022,Few,2,Low,0,2,Low,Hair & Shoulder,Yes,Y,1.0,1
+2/01/2022,Few,2,Low,0,0,Low,Hair & Shoulder,No,Y,3.0,1
+3/01/2022,Few,0,Low,0,1,Low,Hair & Shoulder,No,N,1.0,1
+4/01/2022,Few,0,Low,0,0,Low,Hair & Shoulder,Yes,Y,2.0,2
+5/01/2022,Few,2,Low,0,2,Low,Hair & Shoulder,No,N,2.0,3
+6/01/2022,Medium,3,Low,1,1,Low,Hair & Shoulder,No,Y,1.0,2
+7/01/2022,Medium,3,Low,1,2,Low,Hair & Shoulder,Yes,Y,3.0,3
+8/01/2022,Few,0,Low,0,2,Low,Hair & Shoulder,Yes,Y,3.0,3
+9/01/2022,Few,1,Low,0,1,Low,Hair & Shoulder,No,N,2.0,3
+10/01/2022,Medium,3,Low,1,0,Low,Hair & Shoulder,No,N,2.0,4
+11/01/2022,Medium,3,Low,1,1,Low,Hair & Shoulder,Yes,Y,3.0,5
+12/01/2022,Medium,0,Low,1,3,Low,Hair & Shoulder,No,N,3.0,5
+13/01/2022,Medium,2,Low,1,0,Low,Hair & Shoulder,No,N,2.0,5
+14/01/2022,Medium,1,Low,1,3,Low,Hair & Shoulder,Yes,Y,1.0,5
+15/01/2022,Medium,2,Low,1,2,Low,Hair & Shoulder,Yes,Y,2.0,5
+16/01/2022,Few,0,Low,0,1,Low,Hair & Shoulder,No,N,1.0,4
+17/01/2022,Few,0,Low,0,1,Low,Hair & Shoulder,No,Y,2.0,4
+18/01/2022,Few,2,Low,0,0,Low,Hair & Shoulder,Yes,Y,2.0,1
+19/01/2022,Few,1,Low,0,3,Low,Hair & Shoulder,No,N,1.0,1
+20/01/2022,Few,0,Low,0,2,Low,Hair & Shoulder,No,N,2.0,1
+21/01/2022,Few,0,Low,0,2,Low,Hair & Shoulder,Yes,Y,2.0,2
+22/01/2022,Few,1,Low,0,2,Low,Hair & Shoulder,Yes,Y,2.0,2
+23/01/2022,Few,1,Low,0,3,Low,Hair & Shoulder,No,N,2.0,3
+24/01/2022,Few,2,Low,0,1,Low,Hair & Shoulder,No,N,2.0,4
+25/01/2022,Few,1,Low,0,0,Low,Hair & Shoulder,Yes,Y,1.0,2
+26/01/2022,Few,1,Low,0,2,Low,Hair & Shoulder,No,N,2.0,2
+27/01/2022,Medium,3,Low,1,0,Low,Hair & Shoulder,No,Y,2.0,3
+28/01/2022,Medium,2,Low,1,2,Low,Hair & Shoulder,Yes,Y,3.0,5
+29/01/2022,Medium,1,Low,1,0,Low,Hair & Shoulder,Yes,Y,1.0,5
+30/01/2022,Medium,2,Low,1,2,Low,Hair & Shoulder,No,N,2.0,5
+31/01/2022,Medium,1,Low,1,2,Low,Hair & Shoulder,No,N,1.0,5
+1/02/2022,Few,1,Low,0,3,Low,Hair & Shoulder,Yes,Y,2.0,1
+2/02/2022,Medium,1,Low,1,1,Low,Hair & Shoulder,No,N,2.0,5
+3/02/2022,Medium,0,Low,1,1,Low,Hair & Shoulder,No,N,2.0,5
+4/02/2022,Few,1,Low,0,2,Low,Hair & Shoulder,Yes,Y,2.0,1

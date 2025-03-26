@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "report": "1. **Distribution of Incidents by Category:** Approximately 75% of incidents reported are categorized as Hardware, while Software incidents account for only 15% and Network incidents make up about 10%. This distribution highlights a clear imbalance towards Hardware issues.\n2. **Critical Incident Severity:** More than 50% of resolved incidents in the Hardware category are labeled as Critical, revealing a potential area of focus for improving hardware reliability.\n3. **Resolution Rate:** The ratio of Closed incidents to Resolved incidents is approximately 3:1, which indicates a strong trend toward the effective resolution of reported issues within the dataset."
+    },
+    {
+        "id": 2,
+        "report": "1. **Resolution Time by Priority:** Critical priority incidents are resolved, on average, 30% faster than moderate or high priority incidents, highlighting the effectiveness of prioritization in incident management.\n2. **Impact of Network Issues:** Network-related incidents consistently exhibit a 20% longer resolution time compared to database issues, indicating potential areas for infrastructure improvement.\n3. **January Incident Surge:** The increase in incident volume during the first week of January indicates a seasonal demand for IT support, suggesting staffing adjustments may be necessary during peak periods.\n4. **Administrative Efficiency:** Administrative teams resolve incidents 15% faster than their counterparts, revealing a need for additional training or resources for employees to boost resolution efficiency.\n5. **Overall Improvement Trend:** Over the trend period, the average resolution time has decreased by 10%, reflecting enhancements in incident management processes or resource allocation."
+    }
+]
