@@ -50,9 +50,38 @@ Argos follows a **Plan-Operate-Summarize paradigm**, including:
 
 ### Minimal GPT-4o-mini Practice
 
-1. Run the script `script/preprocess_work_dir.py` to setup the virtual environment. (To run Argos in a Jupyter notebook, set `--require_jupyter`)
+1. Run the shell script `script/venv.sh` or python script `script/install_venv_packages.py` to setup the virtual environment. (To run Argos in a Jupyter notebook, set `--require_jupyter`)
 
-2. Follow the instructions in `playground/minimal.ipynb`.
+2. Follow the instructions in `playground/minimal.ipynb` or run the following script (assuming the current working directory is at the same level as the repository):
+   ```python
+   import asyncio
+   from argos import ArgosAgent, ArgosConfig
+   
+   def get_agent():
+      config = ArgosConfig(
+         work_dir="work/titanic",  # Toy dataset
+         dataset_names=['train.csv', 'test.csv'],
+         question="I want to analyze the passenger information on the Titanic.",
+         venv_dir="work/venv",
+         default_model_name="gpt-4o-mini",
+         default_api_key="<your-openai-api-key>",  # Replace with your OpenAI API key
+         default_base_url="https://<openai-endpoint>/v1"  # Replace with your OpenAI endpoint or set to None for the official API
+      )
+       
+      agent = ArgosAgent(config=config)
+      return agent
+   
+   async def run_agent():
+      agent = get_agent()
+      task_result = await agent.run(print_to_console=True)
+      await agent.save_task_result()
+      await agent.save_data_report()
+
+   if __name__ == "__main__":
+      # If you are already inside an async environment (like Jupyter Notebook)
+      # use 'await run_agent()' directly instead of 'asyncio.run(run_agent())'.
+      asyncio.run(run_agent())
+   ```
 
 ### Full Replication
 
@@ -69,7 +98,7 @@ Argos follows a **Plan-Operate-Summarize paradigm**, including:
 
 ### Deploy with Gradio
 
-#### [Under Development (Coming Soon)]
+##### [Under Development (Coming Soon)]
 
 1. Create a virtual Python executor environment as described above.
 2. Follow the instructions in `playground/gradio.ipynb`
