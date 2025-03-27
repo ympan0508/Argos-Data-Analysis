@@ -29,8 +29,10 @@ Argos addresses these limitations through a multi-agent framework that integrate
 Argos follows a **Plan-Operate-Summarize paradigm**, including:
 
 1. **Planner:** Decomposes complex tasks into smaller actions and orchestrates workflow.
-2. **Operator:** Performs computation and visualization, interacting with data and generating insights.
-3. **Summarizer:** Compiles generated insights into a cohesive report, ensuring interpretability.
+2. **Operator:** Performs computation and visualization, interacting with data and producing execution outputs.
+3. **Summarizer:** Derives insights from code execution or dissects the underlying causes of execution errors.
+
+Finally, the generated insights will be compiled into a cohesive report, enhancing clarity and interpretability.
 
 ## Experiment
 
