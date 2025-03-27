@@ -5,8 +5,9 @@ from dataclasses import asdict, dataclass, field
 from typing import Dict, List, Literal, Optional
 
 from autogen_agentchat.agents import AssistantAgent
+from autogen_agentchat.base import TaskResult
 from autogen_agentchat.conditions import TextMentionTermination
-from autogen_agentchat.messages import TextMessage
+from autogen_agentchat.messages import MultiModalMessage, TextMessage
 from autogen_agentchat.teams import RoundRobinGroupChat
 from autogen_agentchat.ui import Console
 from autogen_core.models import ModelInfo, UserMessage
@@ -36,7 +37,13 @@ from .report import (
     DACOReportGenerator,
     InsightBenchReportGenerator,
 )
-from .util import get_dataset_summary, prep_venv_context, task_result_to_dict
+from .util import (
+    get_dataset_summary,
+    multimodal_message_to_dict,
+    prep_venv_context,
+    task_result_to_dict,
+    text_message_to_dict,
+)
 
 MONKEY_PATCH_TO_SAVE_CALLS = False
 MONKEY_PATCH_TO_REMOVE_IMAGES = False
@@ -485,6 +492,27 @@ class ArgosAgent:
             res = await self.brain_trust.run(task=task_message)
         self.task_result = res
         return res
+
+    async def run_stream(self):
+        task_message = self.get_task_message()
+        stream = self.brain_trust.run_stream(task=task_message)
+        async for message in stream:
+            if isinstance(message, TextMessage):
+                yield text_message_to_dict(message)
+            elif isinstance(message, MultiModalMessage):
+                yield multimodal_message_to_dict(message)
+            elif isinstance(message, TaskResult):
+                yield {
+                    "source": "system",
+                    "usage": None,
+                    "content": f"Stop reason: {message.stop_reason}",
+                    "images": None,
+                    "type": "TaskResult"
+                }
+                self.task_result = message
+            else:
+                raise NotImplementedError(
+                    f"Message type {type(message)} is not supported.")
 
     async def save_task_result(self, filename="task_result.json"):
         if self.task_result is None:
