@@ -1,0 +1,14 @@
+argos/__pycache__/__init__.cpython-310.pyc
+argos/__pycache__/agent.cpython-310.pyc
+argos/__pycache__/prompt.cpython-310.pyc
+argos/__pycache__/report.cpython-310.pyc
+argos/__pycache__/util.cpython-310.pyc
+argos/autogen_argosext/__pycache__/__init__.cpython-310.pyc
+argos/autogen_argosext/__pycache__/code_executor_agent.cpython-310.pyc
+argos/autogen_argosext/__pycache__/team_proxy_agent.cpython-310.pyc
+work/venv/bin/
+work/venv/include/
+work/venv/lib/
+work/venv/lib64
+work/venv/share/
+work/titanic-temp/
