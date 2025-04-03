@@ -43,10 +43,11 @@ class ArgosTeamProxyAgent(BaseChatAgent):
         visual_coder: BaseChatAgent,
         visual_executor: BaseChatAgent,
         visual_reflector: BaseChatAgent,
+        visual_summarizer: BaseChatAgent,
         program_coder: BaseChatAgent,
         program_executor: BaseChatAgent,
         program_reflector: BaseChatAgent,
-        summarizer: BaseChatAgent,
+        program_summarizer: BaseChatAgent,
         inner_termination=TextMentionTermination("APPROVE"),
         max_reflection_rounds=3,
         rework_flag="REWORK",
@@ -59,7 +60,9 @@ class ArgosTeamProxyAgent(BaseChatAgent):
         self._program_coder = program_coder
         self._program_executor = program_executor
         self._program_reflector = program_reflector
-        self._summarizer = summarizer
+        # self._summarizer = summarizer
+        self._program_summarizer = program_summarizer
+        self._visual_summarizer = visual_summarizer
 
         self._rework_flag = rework_flag
 
@@ -111,6 +114,7 @@ class ArgosTeamProxyAgent(BaseChatAgent):
 
         # last message must be from planner
         plan = messages[-1].content
+        # tbh i dont think it good to force json output
         plan_obj = json.loads(plan)
         assert isinstance(plan_obj, dict)
         assert (
@@ -128,11 +132,14 @@ class ArgosTeamProxyAgent(BaseChatAgent):
             coder = self._visual_coder
             executor = self._visual_executor
             reflector = self._visual_reflector
+            summarizer = self._visual_summarizer
         else:
+            assert task_team == "programmatic_team"
             team = self._program_team
             coder = self._program_coder
             executor = self._program_executor
             reflector = self._program_reflector
+            summarizer = self._program_summarizer
 
         stream = team.run_stream(
             task=task_description, cancellation_token=cancellation_token
@@ -202,11 +209,15 @@ class ArgosTeamProxyAgent(BaseChatAgent):
                 f"Unexpected message type {type(executor_message)}")
 
         inner_messages.append(executed_output_message)
-        response = await self._summarizer.on_messages(
+        # response = await self._summarizer.on_messages(
+        #     messages=[
+        #         executed_output_message], cancellation_token=cancellation_token
+        # )
+        response = await summarizer.on_messages(
             messages=[
                 executed_output_message], cancellation_token=cancellation_token
         )
-        await self._summarizer.on_reset(cancellation_token=cancellation_token)
+        await summarizer.on_reset(cancellation_token=cancellation_token)
         yield response
 
         if self._run_flag["visual_team"]:

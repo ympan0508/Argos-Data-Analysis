@@ -90,11 +90,13 @@ class ArgosConfig:
     )
 
     planning_agent: Optional[ModelConfig] = None
-    summarizing_agent: Optional[ModelConfig] = None
+    # summarizing_agent: Optional[ModelConfig] = None
     visual_coding_agent: Optional[ModelConfig] = None
     visual_reflector_agent: Optional[ModelConfig] = None
+    visual_summarizing_agent: Optional[ModelConfig] = None
     programmatic_coding_agent: Optional[ModelConfig] = None
     programmatic_reflector_agent: Optional[ModelConfig] = None
+    programmatic_summarizing_agent: Optional[ModelConfig] = None
     data_report_agent: Optional[ModelConfig] = None
 
     data_report_preset: Literal["daco", "insightbench", "default"] = "default"
@@ -116,12 +118,15 @@ class ArgosConfig:
             return cfg
 
         self.planning_agent = fill(self.planning_agent)
-        self.summarizing_agent = fill(self.summarizing_agent)
+        # self.summarizing_agent = fill(self.summarizing_agent)
         self.visual_coding_agent = fill(self.visual_coding_agent)
         self.visual_reflector_agent = fill(self.visual_reflector_agent)
+        self.visual_summarizing_agent = fill(self.visual_summarizing_agent)
         self.programmatic_coding_agent = fill(self.programmatic_coding_agent)
         self.programmatic_reflector_agent = fill(
             self.programmatic_reflector_agent)
+        self.programmatic_summarizing_agent = fill(
+            self.programmatic_summarizing_agent)
         self.data_report_agent = fill(self.data_report_agent)
 
     def to_dict(self):
@@ -143,16 +148,20 @@ class ArgosConfig:
 
         data['planning_agent'] = create_model_config(
             data.get('planning_agent'))
-        data['summarizing_agent'] = create_model_config(
-            data.get('summarizing_agent'))
+        # data['summarizing_agent'] = create_model_config(
+        #     data.get('summarizing_agent'))
         data['visual_coding_agent'] = create_model_config(
             data.get('visual_coding_agent'))
         data['visual_reflector_agent'] = create_model_config(
             data.get('visual_reflector_agent'))
+        data['visual_summarizing_agent'] = create_model_config(
+            data.get('visual_summarizing_agent'))
         data['programmatic_coding_agent'] = create_model_config(
             data.get('programmatic_coding_agent'))
         data['programmatic_reflector_agent'] = create_model_config(
             data.get('programmatic_reflector_agent'))
+        data['programmatic_summarizing_agent'] = create_model_config(
+            data.get('programmatic_summarizing_agent'))
         data['data_report_agent'] = create_model_config(
             data.get('data_report_agent'))
         return cls(**data)
@@ -343,13 +352,35 @@ class ArgosAgent:
             ),
         )
 
-        self.summarizing_agent = AssistantAgent(
-            name="summarizing_agent",
-            description=("Summarizes key insights from "
-                         "visualization or programmatic output."),
+        # self.summarizing_agent = AssistantAgent(
+        #     name="summarizing_agent",
+        #     description=("Summarizes key insights from "
+        #                  "visualization or programmatic output."),
+        #     model_client=ArgosAgent._client(
+        #         "summarizing_agent",
+        #         model_config=config.summarizing_agent,
+        #     ),
+        #     system_message=SUMMARIZING_AGENT_PROMPT,
+        # )
+
+        self.visual_summarizing_agent = AssistantAgent(
+            name="visual_summarizing_agent",
+            description=("Summarizes key insights from visualizations."),
             model_client=ArgosAgent._client(
-                "summarizing_agent",
-                model_config=config.summarizing_agent,
+                "visual_summarizing_agent",
+                # model_config=config.summarizing_agent,
+                model_config=config.visual_summarizing_agent
+            ),
+            system_message=SUMMARIZING_AGENT_PROMPT,
+        )
+
+        self.program_summarizing_agent = AssistantAgent(
+            name="programmatic_summarizing_agent",
+            description=("Summarizes key insights from programmatic output."),
+            model_client=ArgosAgent._client(
+                "program_summarizing_agent",
+                # model_config=config.summarizing_agent,
+                model_config=config.programmatic_summarizing_agent
             ),
             system_message=SUMMARIZING_AGENT_PROMPT,
         )
@@ -426,10 +457,12 @@ class ArgosAgent:
             visual_coder=self.visual_coding_agent,
             visual_executor=self.visual_executor_agent,
             visual_reflector=self.visual_reflector_agent,
+            visual_summarizer=self.visual_summarizing_agent,
             program_coder=self.programmatic_coding_agent,
             program_executor=self.programmatic_executor_agent,
             program_reflector=self.programmatic_reflector_agent,
-            summarizer=self.summarizing_agent,
+            program_summarizer=self.program_summarizing_agent,
+            # summarizer=self.summarizing_agent,
             max_reflection_rounds=self._max_reflection_rounds
         )
 
