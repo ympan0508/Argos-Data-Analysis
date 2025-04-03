@@ -352,17 +352,6 @@ class ArgosAgent:
             ),
         )
 
-        # self.summarizing_agent = AssistantAgent(
-        #     name="summarizing_agent",
-        #     description=("Summarizes key insights from "
-        #                  "visualization or programmatic output."),
-        #     model_client=ArgosAgent._client(
-        #         "summarizing_agent",
-        #         model_config=config.summarizing_agent,
-        #     ),
-        #     system_message=SUMMARIZING_AGENT_PROMPT,
-        # )
-
         self.visual_summarizing_agent = AssistantAgent(
             name="visual_summarizing_agent",
             description=("Summarizes key insights from visualizations."),
@@ -370,17 +359,6 @@ class ArgosAgent:
                 "visual_summarizing_agent",
                 # model_config=config.summarizing_agent,
                 model_config=config.visual_summarizing_agent
-            ),
-            system_message=SUMMARIZING_AGENT_PROMPT,
-        )
-
-        self.program_summarizing_agent = AssistantAgent(
-            name="programmatic_summarizing_agent",
-            description=("Summarizes key insights from programmatic output."),
-            model_client=ArgosAgent._client(
-                "program_summarizing_agent",
-                # model_config=config.summarizing_agent,
-                model_config=config.programmatic_summarizing_agent
             ),
             system_message=SUMMARIZING_AGENT_PROMPT,
         )
@@ -416,6 +394,17 @@ class ArgosAgent:
                 model_config=config.visual_reflector_agent,
             ),
             system_message=VISUAL_REFLECTOR_AGENT_PROMPT,
+        )
+
+        self.programmatic_summarizing_agent = AssistantAgent(
+            name="programmatic_summarizing_agent",
+            description=("Summarizes key insights from programmatic output."),
+            model_client=ArgosAgent._client(
+                "programmatic_summarizing_agent",
+                # model_config=config.summarizing_agent,
+                model_config=config.programmatic_summarizing_agent
+            ),
+            system_message=SUMMARIZING_AGENT_PROMPT,
         )
 
         self.programmatic_coding_agent = AssistantAgent(
@@ -461,8 +450,7 @@ class ArgosAgent:
             program_coder=self.programmatic_coding_agent,
             program_executor=self.programmatic_executor_agent,
             program_reflector=self.programmatic_reflector_agent,
-            program_summarizer=self.program_summarizing_agent,
-            # summarizer=self.summarizing_agent,
+            program_summarizer=self.programmatic_summarizing_agent,
             max_reflection_rounds=self._max_reflection_rounds
         )
 
