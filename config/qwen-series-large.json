@@ -28,18 +28,6 @@
             "temperature": 0.2
         }
     },
-    "summarizing_agent": {
-        "model_name": "Qwen2.5-VL-72B-Instruct",
-        "api_key": "EMPTY",
-        "base_url": "<your-vllm-endpoint>",
-        "vision": true,
-        "json_output": true,
-        "family": "unknown",
-        "remove_images": false,
-        "openai_kwargs": {
-            "temperature": 0.2
-        }
-    },
     "visual_coding_agent": {
         "model_name": "Qwen2.5-Coder-32B-Instruct",
         "api_key": "EMPTY",
@@ -64,6 +52,18 @@
             "temperature": 0.2
         }
     },
+    "visual_summarizing_agent": {
+        "model_name": "Qwen2.5-VL-72B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": false,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
     "programmatic_coding_agent": {
         "model_name": "Qwen2.5-Coder-32B-Instruct",
         "api_key": "EMPTY",
@@ -77,6 +77,18 @@
         }
     },
     "programmatic_reflector_agent": {
+        "model_name": "Qwen2.5-72B-Instruct",
+        "api_key": "EMPTY",
+        "base_url": "<your-vllm-endpoint>",
+        "vision": true,
+        "json_output": true,
+        "family": "unknown",
+        "remove_images": false,
+        "openai_kwargs": {
+            "temperature": 0.2
+        }
+    },
+    "programmatic_summarizing_agent": {
         "model_name": "Qwen2.5-72B-Instruct",
         "api_key": "EMPTY",
         "base_url": "<your-vllm-endpoint>",
