@@ -55,6 +55,7 @@ Finally, the generated insights will be compiled into a cohesive report, enhanci
 1. Run the shell script `script/venv.sh` or python script `script/install_venv_packages.py` to setup the virtual environment. (To run Argos in a Jupyter notebook, set `--require_jupyter`)
 
 2. Follow the instructions in `playground/minimal.ipynb` or run the following script (assuming the current working directory is at the same level as the repository):
+
    ```python
    import asyncio
    from argos import ArgosAgent, ArgosConfig
@@ -100,7 +101,7 @@ Finally, the generated insights will be compiled into a cohesive report, enhanci
 
 ### Deploy with Gradio
 
-##### [Under Development (Coming Soon)]
+> **[Under Development (Coming Soon)]**
 
 1. Create a virtual Python executor environment as described above.
 2. Follow the instructions in `playground/gradio.ipynb`
@@ -117,12 +118,11 @@ Finally, the generated insights will be compiled into a cohesive report, enhanci
 
 2. **Can I use open-source models?**
    Yes, but only OpenAI-like API calls are supported. It's recommended to serve your models using vLLM or SGLang. We provide a demo configuration at `config/Qwen-series-large.json` and a demo jupyter notebook at `playground/custom.ipynb`. The detailed setting for Qwen-series is:
-   - `Qwen2.5-VL-72B-Instruct` for Visual-Reflector and Summarizer.
-   - `Qwen2.5-72B-Instruct` for Planner.
-   - `Qwen2.5-Coder-32B-Instruct` for Visual- and Programmatic-Coder.
+   - `Qwen2.5-72B-Instruct` for default.
+   - `Qwen2.5-VL-72B-Instruct` for Visual-Reflector and Visual-Summarizer.
+   - `Qwen2.5-Coder-32B-Instruct` for Visual-Coder and Programmatic-Coder.
 
-   This setting achieve 86.5 on DACO (evaluated by Llama-3), surpassing all the baselines equipped even with GPT-4o-mini.
-   However, if models with smaller size are adopted (especially small VL-models for Summarizer), we've found that the poor text-only instruction-following ability strongly decrease the overall performance (with ~7B Qwen series models, Argos achieve 65.8 on DACO; though it's still higher than most of baselines equipped with GPT-4o-mini, we think it's not enough). We are seeking a way to decouple Summarizer to fix this.
+   This setting achieve 94.5 on DACO (evaluated by LLaMA-3), surpassing all the baselines equipped even with GPT-4o-mini.
 
 3. **Python version compatibility:**
    Argos has been tested with Python 3.12 but should work well with versions above 3.10 (required by AutoGen framework).
