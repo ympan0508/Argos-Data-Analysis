@@ -547,10 +547,16 @@ class ArgosAgent:
             json.dump(dico, f, indent=4)
         return dico
 
-    async def save_data_report(self, raw_filename="report.md",
-                               json_filename="report.json"):
+    async def save_data_report(self,
+                               raw_filename="report.md",
+                               json_filename="report.json",
+                               print_to_console=False):
         try:
             self.data_report_generator = self.load_data_report_generator()
+            if print_to_console:
+                print('---------- data_report ----------')
+                print(self.data_report_generator.request_messages[0].content)
+                print(self.data_report_generator.request_messages[1].content)
         except FileNotFoundError as e:
             raise FileNotFoundError(
                 f"File not found when loading data report generator: {e}"

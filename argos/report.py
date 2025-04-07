@@ -19,7 +19,7 @@ class ArgosReportGenerator:
     def _load_summarizer_messages(self):
         _summarizer_messages = []
         for _message in self.task_result:
-            if _message['source'] == 'summarizing_agent':
+            if "summarizing" in _message['source']:
                 _summarizer_messages.append(_message)
         return _summarizer_messages
 
