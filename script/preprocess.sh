@@ -1,3 +1,4 @@
+#!/bin/bash
 # Preprocess script for preparing datasets (DACO, InsightBench or ALL).
 # Usage:
 #   python preprocess_work_dir.py # Process both datasets by default (DACO and InsightBench)
